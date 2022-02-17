@@ -6,9 +6,11 @@ import Footer from "./components/Footer"
 export default function App() {
     return (
         <>
-            <Info/>
-            <About/>
-            <Interests/>
+            <div className ="main-container">
+                <Info/>
+                <About/>
+                <Interests/>
+            </div>
             <Footer/>
         </>
     )
